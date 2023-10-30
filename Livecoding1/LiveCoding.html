@@ -1,0 +1,165 @@
+<html>
+<head>
+	<title>Livecoding</title>
+	<style>
+		body
+		{
+                    margin: 0px;
+                	padding: 0px;
+            	}
+		#navigation
+		{
+			background-color: #ef5c32;
+			padding: 15px;
+			color: white;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		#header
+		{
+			text-align: center;
+			text-decoration: underline;
+			font-weight: bold;
+			font-size: 24px;
+			padding: 30px;
+		}
+            	.flex-container
+            	{
+                	display: flex;
+                	justify-content: space-evenly;
+            	}
+            	.flex-item
+            	{
+                	width: 380px;
+                	min-height: 380px;
+                	border: 1px solid black;
+                	border-radius: 10px;
+                	position: relative;
+            	}
+                .innercard
+		{
+			display: flex;
+			position: absolute;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			padding-left: 20px;
+			padding-right:20px;
+			color: #ef5c32;
+			border-radius: 10px;
+			z-index: 1;
+                	flex-wrap: wrap;
+			width: 70%;
+		}
+		.div1
+		{
+			color: blue;	
+		}
+		.div2
+		{
+			color: black;
+		}
+            	.course
+            	{
+                	display: flex;
+                	flex-wrap: wrap;
+                	width: 70%;
+                	column-gap: 10px;
+            	}
+		h6
+		{
+                	border: 1px solid grey;
+                	border-radius: 10px;	
+			text-align: center;
+                	padding-left: 20px;
+                	padding-right: 20px;
+                	padding-top: 10px;
+                	padding-bottom: 10px;
+                	font-weight: bold;
+                	margin-top: 0px;
+		}
+		h3
+		{
+                	border-radius: 10px;
+			background-color: #ef5c32;
+			color: white;
+			font-size: 18px;
+	               	position: relative;
+              		padding-left: 20px;
+                	padding-right: 20px;
+                	padding-top: 10px;
+                	padding-bottom: 10px;
+			width: 70%;
+			text-align: center;
+			bottom: 20px;
+			margin:10px; 	
+		}
+		.explore2
+		{
+			bottom: -100px;
+		}
+		.explore3
+		{
+			bottom: -40px;
+		}
+		.KID
+		{
+			position: absolute;	
+			height: 100%;
+                	right: 0px;	
+		}
+	</style>
+</head>
+<body>
+	<div id="navigation">
+		CareerCharge
+	</div>
+	<div id="header">
+		CareerCharge Courses
+	</div>
+	<div class="flex-container">
+		<div class="flex-item">
+			<div class="innercard">
+				<div class="div1">B.Tech 1-2 Years</div>
+				<div class="div2"><h4>Programming Languages</h4></div>
+				<div class="course">
+					<h6>Python</h6>
+					<h6>C</h6>
+					<h6>JAVA</h6>
+					<h6>Web Development</h6>
+					<h6>Java Script</h6>
+				</div>
+				<h3 class="explore1">Explore Courses</h3>
+			</div>
+			<img class="KID" src="KID.png">
+		</div>
+
+		<div class="flex-item">
+			<div class="innercard">
+				<div class="div1">B.Tech 3-4 Year</div>
+				<div class="div2"><h4>Web Development</h4></div>
+				<div class="course">
+					<h6>Java Full Stack</h6>
+					<h6>MERN Stack</h6>
+				</div>
+				<h3 class="explore2">Explore Courses</h3>
+			</div>
+			<img class="KID" src="KID.png">
+		</div>
+
+		<div class="flex-item">
+			<div class="innercard">
+				<div class="div1">B.Tech Completed</div>
+				<div class="div2"><h4>Career Oriented</h4></div>
+				<div class="course">
+					<h6>Advanced SQL</h6>
+					<h6>AWS Devops</h6>
+					<h6>Data Engineering</h6>
+				</div>
+				<h3 class="explore3">Explore Courses</h3>
+			</div>
+			<img class="KID" src="KID.png">
+		</div>
+		
+	</div>
+</body>
+</html>
